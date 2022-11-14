@@ -66,6 +66,8 @@ https://stackoverflow.com/questions/tagged/string+python
 Kaggle source: https://www.kaggle.com/datasets/shadowtime2000/dungeons-dragons
     
 Api source: https://www.dnd5eapi.co/docs/#get-/api/subraces/-index-
+
+Scrapping source: https://en.wikipedia.org/wiki/
     
 *<sup>1</sup> https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf
     
