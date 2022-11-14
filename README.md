@@ -51,7 +51,7 @@ The tools that have been employed were:
     
 ![alt text](https://github.com/jquintanac/PROY-ETL/blob/main/img/table.png?raw=true)
     
-    **Now you can check all the posibilities you have to build your DnD character based on a LOTR character!**
+***Now you can check all the posibilities you have to build your DnD character based on a LOTR character!***
 
 ## Useful Resources 💻
     
