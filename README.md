@@ -1,7 +1,7 @@
 # ETL PROJECT
 
 
-<<image>>
+![alt text](https://github.com/jquintanac/PROY-ETL/blob/main/img/banner3.jpg?raw=true)
 
 The goal of this project is to practice the three processes for a data engineer: extract, transform and load the data. For this project, I extracted the data from Dungeons and Dragons (or DnD, a fantasy tabletop role-playing game dated in 1974 but with several updates) to create playable characters extracted from the Lord of the Rings movie.
 
@@ -37,21 +37,21 @@ The tools that have been employed were:
     
 3️⃣ I figured out I do not have a straight relationship between some of my data, such as classes, stats or races, when indeed they are. So, I researched to fix it:
     
-    • I build some functions to build the stats: a six dice function (as a basic dice rolling), a random stats generator function (based on DnD handbook(*1) where you roll four dices to sum the highest three to stablish a value for your stats) and a stats modifier function (based on DnD handbook(*1) where you have to substract 10 to your stat and to divide it by 2 for getting your modifier). Now I could make any stat I wanted but I could not relationate them with other data, so I had to stablish predefined stats by class, based on the handbook(*2). This way, stats and classes were relationated, but... what about races?
+• I build some functions to build the stats: a six dice function (as a basic dice rolling), a random stats generator function (based on DnD handbook*<sub>1</sub> where you roll four dices to sum the highest three to stablish a value for your stats) and a stats modifier function (based on DnD handbook*<sub>1</sub> where you have to substract 10 to your stat and to divide it by 2 for getting your modifier). Now I could make any stat I wanted but I could not relationate them with other data, so I had to stablish predefined stats by class, based on the handbook*<sub>2</sub>. This way, stats and classes were relationated, but... what about races?
     
-    • It was hard to join races and classes because of you can choose any class for any race though some classes are more appropiate for some races. So I search more information on internet and I found a survey(*3) about 100.000 built characters with the frequency of the combination class/race. I worked the table and I wrote the information on a excel doc, transforming the cases to frequencies and classifying them as 'infrequent' (low frequencies), 'recommended' (high frequencies) and neutral for the rest. Assigning the id for races and classes, I built the combo table that I needed.
+• It was hard to join races and classes because of you can choose any class for any race though some classes are more appropiate for some races. So I search more information on internet and I found a survey*<sub>3</sub> about 100.000 built characters with the frequency of the combination class/race. I worked the table and I wrote the information on a excel doc, transforming the cases to frequencies and classifying them as 'infrequent' (low frequencies), 'recommended' (high frequencies) and neutral for the rest. Assigning the id for races and classes, I built the combo table that I needed.
     
 4️⃣ With my 10 DnD tables, I could build the database so I started with the ERD diagram in MySQL to check the relationships and... it worked! 
     
-<<image>>
+![alt text](https://github.com/jquintanac/PROY-ETL/blob/main/img/EDR.png?raw=true)
     
 5️⃣ I just needed the info about the character to build his character sheet so... time to scrap Wikipedia! I focused on 'The Lord of the Rings: The Fellowship of the Ring' movie and thanks to Selenium scrapping I get two main data: Character name and race. I took three character as example: Frodo Bolson (a Hobbit), Gimli (a Dwarf) and Legolas (an Elf). 
 
 6️⃣ Time to create! I made a new table in MySQL with all the parameters I considered as important ones to the character sheet and the result was...
     
-<< image >>
+![alt text](https://github.com/jquintanac/PROY-ETL/blob/main/img/table.png?raw=true)
     
-    Now you can check all the posibilities you have to build your DnD character based on a LOTR character!
+    ***Now you can check all the posibilities you have to build your DnD character based on a LOTR character!***
 
 ## Useful Resources 💻
     
@@ -67,11 +67,11 @@ Kaggle source: https://www.kaggle.com/datasets/shadowtime2000/dungeons-dragons
     
 Api source: https://www.dnd5eapi.co/docs/#get-/api/subraces/-index-
     
-(*1) https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf
+*<sub>1</sub> https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf
     
-(*2) https://rpgbot.net/dnd5/characters/classes/
+*<sub>2</sub> https://rpgbot.net/dnd5/characters/classes/
     
-(*3) https://www.enworld.org/attachments/db-vkqsw4aaajke-jpg.96949/
+*<sub>3</sub> https://www.enworld.org/attachments/db-vkqsw4aaajke-jpg.96949/
 
 
-“You step into the road, and if you don’t keep your feet, there is no knowing where you might be swept off to.” ― J.R.R. Tolkien
+*“You step into the road, and if you don’t keep your feet, there is no knowing where you might be swept off to.”* ― **J.R.R. Tolkien**
