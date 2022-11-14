@@ -15,17 +15,17 @@ The goal of this project is to practice the three processes for a data engineer:
     
 For this project, my 3️⃣ sources were:
     
-   • Five .csv files from Kaggle about DnD to build the database: classes, races, equipment, monsters and spells. 
+- Five .csv files from Kaggle about DnD to build the database: classes, races, equipment, monsters and spells. 
     
-   • DnD API source to enrich the database.
+- DnD API source to enrich the database.
     
-   • Wikipedia, to get the information about the movie character.
+- Wikipedia, to get the information about the movie character.
 
 The tools that have been employed were:
     
-   • 'Get' requesting from the API source.
+- 'Get' requesting from the API source.
     
-   • Web scrapping with Selenium.
+- Web scrapping with Selenium.
     
     
 ## Step-by-step process 🏃‍♂️
