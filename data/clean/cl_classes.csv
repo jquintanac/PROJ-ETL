@@ -1,0 +1,13 @@
+id_class,class_name,health,proficiencies,start_equipment,class_level,subclasses,spellcasting,saving_throws
+1,Barbarian,12,"Light armor, Medium armor, Shields, Simple weapons, Martial weapons",Barbarian,Barbarian,Berserker,None,STR or CON
+2,Bard,8,"Light armor, Simple weapons, Longswords, Rapiers, Shortswords, Crossbows, hand",Bard,Bard,Lore,Bard,DEX or CHA
+3,Cleric,8,"Light armor, Medium armor, Shields, Simple weapons",Cleric,Cleric,Life,Cleric,WIS or CHA
+4,Druid,8,"Light armor, Medium armor, Shields, Clubs, Daggers, Javelins, Maces, Quarterstaffs, Sickles, Spears, Darts, Slings, Scimitars, Herbalism Kit",Druid,Druid,Land,Druid,INT or WIS
+5,Fighter,10,"All armor, Shields, Simple weapons, Martial weapons",Fighter,Fighter,Champion,None,STR or CON
+6,Monk,8,"Simple weapons, Shortswords",Monk,Monk,Open Hand,None,STR or DEX
+7,Paladin,10,"All armor, Shields, Simple weapons, Martial weapons",Paladin,Paladin,Devotion,Paladin,WIS or CHA
+8,Ranger,10,"Light armor, Medium armor, Shields, Simple weapons, Martial weapons",Ranger,Ranger,Hunter,Ranger,STR or DEX
+9,Rogue,8,"Light armor, Simple weapons, Longswords, Rapiers, Shortswords, Crossbows, hand, Thieves Tools",Rogue,Rogue,Thief,None,DEX or INT
+10,Sorcerer,6,"Daggers, Quarterstaffs, Darts, Slings",Sorcerer,Sorcerer,Draconic,Sorcerer,CON or CHA
+11,Warlock,8,"Light armor, Simple weapons",Warlock,Warlock,Fiend,Warlock,WIS or CHA
+12,Wizard,6,"Daggers, Quarterstaffs, Darts, Slings",Wizard,Wizard,Evocation,Wizard,INT or WIS

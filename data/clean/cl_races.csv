@@ -1,0 +1,10 @@
+id_races,race_name,size,speed,id_alignment,first_lang,second_lang,language_options,bonus,bonus_option,subrace_name,proficiencies_start,traits
+1,Dragonborn,Medium,30,1,Common,Draconic,None,"STR+2, CHA+1",None,None,None,"Draconic Ancestry, Breath Weapon, Damage Resistance"
+2,Dwarf,Medium,30,2,Common,Dwarvish,None,CON+2,None,Hill Dwarf,"Battleaxes, Handaxes, Light hammers, Warhammers","Darkvision, Dwarven Resilience, Stonecunning, Dwarven Combat Training"
+3,Elf,Medium,30,3,Common,Elvish,None,DEX+2,None,High Elf,Skill: Perception,"Darkvision, Fey Ancestry, Trance"
+4,Gnome,Small,25,4,Common,Gnomish,None,INT+2,None,Rock Gnome,None,"Darkvision, Gnome Cunning"
+5,Half-Elf,Medium,30,5,Common,Elvish,Choose one more language,CHA+2,Choose 2 from bonus,None,None,"Darkvision, Fey Ancestry, Skill Versatility"
+6,Half-Orc,Medium,30,6,Common,Orcish,None,"STR+2, CON+1",None,None,Skill: Intimidation,"Darkvision, Savage Attacks, Restless Endurance"
+7,Halfling,Small,25,7,Common,Halfling,None,DEX+2,None,Lightfoot Halfling,None,"Brave, Halfling Nimbleness, Lucky"
+8,Human,Medium,30,8,Common,No second language,Choose one more language,"STR+1, DEX+1, CON+1, INT+1, WIS+1, CHA+1",None,None,None,None
+9,Tiefling,Medium,30,9,Common,Infernal,None,"INT+1, CHA+2",None,None,None,"Darkvision, Hellish Resistance, Infernal Legacy"

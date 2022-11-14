@@ -1,0 +1,10 @@
+id_races,lawful,chaotic,neutral,good,evil
+1,False,False,False,True,True
+2,True,False,False,True,False
+3,False,True,False,True,True
+4,True,True,False,True,False
+5,False,True,False,False,False
+6,False,True,False,True,True
+7,True,False,False,True,False
+8,False,False,True,False,False
+9,False,True,False,False,True

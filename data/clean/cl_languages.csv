@@ -1,0 +1,17 @@
+id_languages,language_name,description,type,speakers,script
+1,Abyssal,None,Exotic,Demons,Infernal
+2,Abyssal,None,Exotic,Demons,Infernal
+3,Common,None,Standard,Humans,Common
+4,Deep Speech,None,Exotic,"Aboleths, Cloakers",None
+5,Draconic,Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.,Exotic,"Dragons, Dragonborn",Draconic
+6,Dwarvish,Dwarvish is full of hard consonants and guttural sounds.,Standard,Dwarves,Dwarvish
+7,Elvish,"Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",Standard,Elves,Elvish
+8,Giant,None,Standard,"Ogres, Giants",Dwarvish
+9,Gnomish,"The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.",Standard,Gnomes,Dwarvish
+10,Goblin,None,Standard,Goblinoids,Dwarvish
+11,Halfling,"The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong.",Standard,Halflings,Common
+12,Infernal,None,Exotic,Devils,Infernal
+13,Orc,"Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.",Standard,Orcs,Dwarvish
+14,Primordial,None,Exotic,Elementals,Dwarvish
+15,Sylvan,None,Exotic,Fey creatures,Elvish
+16,Undercommon,None,Exotic,Underdark traders,Elvish
